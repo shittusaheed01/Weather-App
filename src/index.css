@@ -1,0 +1,102 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+}
+
+#root{
+  margin: 0;
+  width: 100%;
+  padding: 0;
+  display: flex;
+}
+
+
+main{
+  width: 100%;
+  background-image: url("./hand\ sun.jpg");
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+main.cold{
+  background-image: url("./cold-bg\ 2.jpg");
+}
+main.warm{
+  background-image: url("./flower\ sun.jpg");
+}
+.container{
+  background-image: linear-gradient(rgba(32,81,100,0.9), rgba(0,0,0,.3));
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.details{
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  margin: 0 auto;
+}
+.time{
+  color: white;
+  font-size: 1.6rem;
+}
+.city{
+  font-size: 2.4rem;
+  color: white;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+.input-div{
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+  /* border: 1px solid grey; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.input-div input{
+  display: block;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0.5em;
+  font-size: 1.5rem;
+
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+
+  background-color: rgba(255,255,255,0.5);
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 9px;
+
+  color:#555;
+  transition: 0.5s;
+}
+.input-div input:focus{
+  background-color: rgba(255,255,255,0.9);
+  color: #111;
+  transition: all ease 0.5s;
+}
+.weather{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+.weather p{
+  font-size: 2.4rem;
+  color: #eee;
+  margin: 0;
+  padding: 0.5em;
+  text-transform: capitalize;
+}
