@@ -1,13 +1,8 @@
-# React Todo App
+# React Weather App
 
-This Project Contains The List Of Things I Want To Achieve Before The Year Runs Out
+This Project uses calls an API, and gets data from it
 
-It Might Seem Like A Litle, But It Will Be updated As the Year goes By
+It Also has a dynamic background, which changes with respect to the temperature on the city
 
-The Project Allows You To Add Items To Your Todo List, And Cross Them Out, Once It Has  Been Completed.
 
-It Was Strictly Programmed To Not Allow The User Add An Empty Item
-
-The Checkboxes Were Designed In A Fascinating Manner Leaving The User In State Of Awe
-
-Live Version Deployed at [Vercel](https://react-todo-appy.vercel.app/)
+Live Version Deployed at [Vercel](https://weather-app-snowy-zeta.vercel.app/)
